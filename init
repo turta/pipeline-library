@@ -1,0 +1,10 @@
+rm  -rf  .git*
+git init
+git add .
+git commit -m "turta@jdancer"
+#git remote add origin http://192.168.142.101:32418/fabric8io/fabric8-pipeline-library.git
+#git remote add origin https://try.gogs.io/fabric8io/fabric8-pipeline-library.git
+git remote add origin https://github.com/turta/pipeline-library.git
+git push -u origin master
+git tag v2.2.311
+git push origin v2.2.311
